@@ -18,7 +18,7 @@
 .text
 # your strings here
 message:
-    .asciz "Buse Basavci & Shabnam Alizada, 2769468 & ..., Assignment 1: your first simple program\n"
+    .asciz "Buse Basavci & Shabnam Alizada, 2769468 & ....., Assignment 1: your first simple program\n"
 
 .global my_main                         # make my_main accessible globally
 my_main:
@@ -34,3 +34,5 @@ my_main:
 end:
     movq $0 , %rdi
     call exit 
+
+#test
