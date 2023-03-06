@@ -18,7 +18,7 @@
 .text
 # your strings here
 message:                                # I am initializing a variable named message
-    .asciz "Buse Basavci & Shabnam Alizada, 2769468 & 2666615, Assignment 1: your first simple program..\n" # In the variabel I mentioned above, I store a string with all the information I have to output on the terminal for the assignment.
+    .asciz "Buse Basavci & Shabnam Alizada, 2769468 & 2666615, Assignment 1: your first simple program\n" # In the variabel I mentioned above, I store a string with all the information I have to output on the terminal for the assignment.
 
 .global my_main                         # make my_main accessible globally
 my_main:                                # I create a subroutine called: my_main
